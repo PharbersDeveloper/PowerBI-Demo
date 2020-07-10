@@ -6,17 +6,17 @@
 </head>
 
  <script src="https://npmcdn.com/es6-promise@3.2.1"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
-      <script type="text/javascript" src="powerbi.min.js"></script>
-    <script type="text/javascript">
+ <script type="text/javascript" src="jquery.min.js"></script>
+ <script type="text/javascript" src="powerbi.min.js"></script>
+ <script type="text/javascript">
 
         //This code is for sample purposes only.
 
         //Configure IFrame for the Report after you have an Access Token. See Default.aspx.cs to learn how to get an Access Token
         window.onload = function () {
-            var accessToken = 'H4sIAAAAAAAEACWWxc7GDG5G7-XfplKYKs0izMzZhfENc9V779eZvb3w42Md_88_dvaOc1b-89__BPZp8T8Ynbn8l1LSy3d7i_Q5hy4Uu0PavGwF7A9EVboJHi_8_TsQR4D6SCVF6ZA-yK5aKGIaPQ1OguM1s9gtefBDYHr3uxIXoAiORFS5SxGX_KjLcISkqO_X20CmASbKwGXoMN3DntggzixiBABPNbc3Zf0p16kW99OKCr7LeiW2JtlxGJELdoiXrh6TeZb7t9TnibH6jfXAuT_5jT1rI1x1wXBlSqps5cVNkv5ptGvyfmluc_sIH7mPBT727VZtplmZxIIJsx8WWbCuNb0zai7AT_9NxVf10d581TMn2N7tKdxX0msCOJhK3YQHzbMTa5RC4iYPYKsag26tEFGNrnXuYNhMz4zI0mWb-PP4307zn75LOK6LRWHhZq_Fi6mzdyW5XZgrD1Aj8uN42vraDAPuGxjB5RFkzW9EkH2XzBRnV3DaOqzXUPokNAE0BEQiKcOT90YPqdjPoeE3npC9euKi-rttDjNPGFW-d3pFOKQUl1ekVzcg-ffKT4wCeVV3WcAHaezXAuqtfzbQrI2vWypUpRdGu-fHZ9CvWWxMRn5gXw1IUe9p5PxIvzZMgZm-scNWnDGBh665sW73t6Xvgtqic-L6Q31GwER_e8BQKG3l5uET1Sykpr2Yo35qd9Lyw2s_rIesiT467zr-0mPN0RRDXk5ZnEOs5nkjMKSqHdzDEOTEOEAu9iSENGIGaIj3LCPYMtZzKIB_C1k5EI_12JVhnYQ9s3VWPwGa12MOqIOIX21BBJ5a_T5ONYsJ1ongOYuElGJUTADaSlhx2-i-mXv4Q48Raxsi44BSYxiCSENoiO8AI5ZUQ2nCPotjmJvY4egoawaABDiSWFjdSabIY8Kbm-T87Unv0E6bH7T1_GAiR00W5PMtl2FG9jHcabUlvxlpP2rytduDytZpbSexdrFIgbUJRnAHre8gAgBv9h0ZvQbGbPEqaXzNPIZWhZcrxu7y6tDXeDimtsXtEaAkrfbl8fSJLjH3bcvL5IWpp34cD9qc1PUzW-q9zave0yReBCYhoo1YrklXRvp6rZDDM6leMxKoorFOBVa74bm7rWHrZKoujHGe9_met40oWCifxTL64eBF31VQqnndFqheCiyxhRVaa1lWhGHjEf5tzFDJM9gTpg2a9DZ3C7jyXlxYzfeqAthPFRgGPY6DIUeA35kEOSc3j4myQLsHPmCr9YkcE7S2-Dn2TfEyH1wUGoFXsmGuu2ThCTV3fl290bpkXSNQKf_-thPUwDY8H1xu45vgkGzIXBv2Hwp93aJ6Etug5Z0ybX5Is0S-gosoqtvblIez0R2v-VuDSn2L09vCOQOeqfhaFdErxzP_WehmUrRMQq04lgEbqKdA3dQMr4doiMf2pHG9wzx3YZYqaXrHC18z55gvPHuCSAy9Z3Yjve6D7zdPIaddin67bhdCUUHpzd8-pnNFIjqLRFnxd850bMp9kFstsUtnRiEz6r7ygCUkKvoTwMBzixRx_BCdnhl5u2cvWdvgmKRrk4buxwtlVcT-4iHtY8QOUFcPysjUAYo8WwAe7Rh41zHVwp9EMYblS7EnG4UNFuM2tJJg1AnyHHOfNzoFZwVlAsnJGTT8D0-4tJmrIEErEMHWYMmoVdIESenS2UGbOzi5HxSlGnudJsFTujPkajPo9kJMxixYwKK3_aMV63FvB55c1swG2BwXrSLYCxv11uRlO9DlYeshEzWKrIhOPHTM5DkkO7hochYZGKZTKhAVznShAmnA1erhRDevty00mbTJnHwzvt5piehf6H2zwWhD0kQDL_E7LrySiCWjcUh9CAzSPBwr4Cj50IvZxm10fbo7rhzwAGsw8yft26JgTry1YxnHQW_SeYTZ4ZwUzgeqIuqd-i7plEkJnLev0QxQaKzYo24PRRJtzVM8okr-ND4G-Xr9S9lCv8jHRula0xxFBlrz15QZf552zoWmyjcS_oQm8CZXnByadHSZh7nIakOUGhgd-NrMHudfNqlnDsoZUZjFQcAyltDYutzf2nzxhrttDUQJtiTjnC6VYZ1IgZmX-pP-2AbrlqjSnmdl8zh0VWmukC9oiDDov-aMD7kYjBfV0k_uRAX_okPH0cz761sfqbSX71tSpayQnWECiVSTB8ZOgd7KMXTObahkHPltnTlyG4gr4Unjxi3qEqlp0xJbpqAwGSfaJ6Fpcngql9WexcLFZXmfL3uwMGYCYpwCeEmWGvSqT2f4xITe-vDEeQhFCyxxaxx3b_VGMy0lq0zbOZvChLigqhczbZAMRCEB-PNVBmfxRFkPI2VeBxjKFv_4Y0H20FkB0-VS7I8d6-kfj-lp6jdozcTObKuInCJ_81aZgyk1VUO5RGYgINP5lklkAZxv06SMtCo8TFwn4p6Ns_1q1F5KDJYZYzBpZuL861___Nc_3PYux6xV79-bpcxxnTVIcHvRSlgJFW6eQEQLP3x_SIzHG2eQSQ7E8pNJtOJy1sSUDEKi96r6Qwq2qULkbKQOp-r6Y5lk5zfMUnbl5fLnnvkPZ1ycGednoFNJDnquOI260VLfh0T1qfYbIW2npX8zhw-aehQ1CtjVi3bgfsFlGiLJOQLJyT7sltN1Dt-buiz10lJct6VtqzgAkfzXgeKfQIu5g6eOGCNorwViM-MpxYPA18niRImziRstFEsOoNtMXElAQlqby1JNAjJZ8EXm1y6UPmYx5x4TkBHSI_tP8aNine5Znk3tsFSOMLzRIT6QiblNGxAqeav866qPDak3-5HdVHghqPLiGRHv_8T8Lm21KeFfyrQAQuBuFb3bdtj-XEJZk0zz7yqva6bsOLfqr8xrxGqs85YVgiwwF0kOMWJu6mav3oV3kesqQYy64vtO0S91zohzzFD6k-95a1zKKJpB7Vjr9wwstDIQSkjHiGmjRRcwouFP7EthWpB5j3X7s8nA7CRjX2f9KntBKTiN0YidJgET0UpaZY3F4sf-6L7TPB1J7Eg_2JZB0gm649pR3epQ7RhzxRtnSZL4dyI7ycKPZZjKTGjdNKWPfP-QZWdtgDTXadqU2xKzkCluACGG0jUBQRazIwtfiiQfuGMnzUs6ngrdO2RfQ1NhTyMBYOjJaSanwjxG16gBrFEZVTfmgCdiYvaFQKzFYXO4ELUEh2bpsaKbyyO8MZ_XPEAo_M8O_8_8__4fGVWoPVoMAAA=';
-            var embedUrl = 'https://app.powerbi.cn/reportEmbed?reportId=15673e76-fe99-4249-b58e-8e24fa635d72&groupId=e6effdad-efa0-4960-9542-2577138395f0';
-            var reportId = '15673e76-fe99-4249-b58e-8e24fa635d72';
+            var accessToken = 'H4sIAAAAAAAEACWWtw7sWA5E_-WlGkDeDTCBvFreu0zetLyXFvvv24tJmJCXwSneQv3nj5U-_ZQWf_7-Y9AssnmMmB4Y5S8paHEiyBbZR7DKE-PCl4cRs41S2clVCOf65Yrz9dJZD--GvLPFRjaTvHzzOeM_cLs0XtSY6OXbSq5YrPI4nlrHJBM4D9COad-XJngncWciK0-cU7JZoFRXvqIDmtYkwXIQE3UrQKhL60j1dvnE1sCRw4HUX2te9MhT_HPrMXfBFTbH8sskFrBRE2fIiZ1JiBz38uSMuViR7rDk9rvK4kvBS05WaLaZCJdpwWzdCNBz99aR3BGdvpgpqSloCNUDZw4DgNCdZuGKWHUcZZaeqHgwliyaig2vPea0IfFgCcGyqT43X45G4-EYTdes8FiiHoyE1bKhN14xe1tctugs9xdltIcvR4WIs_LNoWctNHVAAuqaH6MwpF9MjiRalPHRY1-fnWQNSJq8uLZazmdLbgvrO2WIBpvikya9PG7UfCD0WJ_DmShXtX1sIQ15hLn2RK2Vh6PiYKei9HWRddZTrozYhz6Rh0JGZILESexWnjnC7Wxm9AOQX8KlFEH0joTr8yW9rz2G6_58YIk_q3vGwy8caiS55Uzozxyu9vcd1xB6QeBrhEbVcGeI-SiCj984XefU_vIIiinGVkW3-i6JOchTtJfKEvMUTJkcJ_DueOhu6Ylm2HU6l5aMqniBQg9ihL49Tc_RaU0KDo1cHAIajlY4rRAky_TunlxtiH34xZaFD3d96W0UcHDu62Br7vj-IERjy23eB5y1T2bnLINm2SHjotXQ9a9vTkt42pJG9xsPbVZ11grfT7l-sFWrx9u1OGFEjvblIdJm6Kn0OdpBWLQR2d86XHOmsqATc4hLBhsJeJiPb0rSLdJDKCfzIcTMoBT54PQlryPLVAWpJ6Ytm80bLr1VLnPkJreShxq7yLa1H2CPHwWW3fCXCD0wLGBJd6GKA1_8M24FloNd_jISzAcOGGX1R6LHfquPHf6mEzaL7KMCUdM9HJONVyc5V7BbOpgglnhLTbTLCmyj39vG1pkKOxPgAT-s3XguvRu5WOtJNQ_ry3Rc3EmT46Xil9iwTiMWq65Mlf7SSlRk2kTuuZzBNFUGAHeXuw5VUx1TR1S9kJMThu0SxHdpv0S4qEHCxVCEMmyqG8KB6HSKR8l7y3mPHpkaCJZLo1OJbghpM-mr9AXt2ISQGtBOUnv1XInWEXbcacA52QqnWM37haqLqlSceTO_8HESrJbUHO9Lc-mb4C3B4fZvtKd3wNHlIFlyMa1u4FeamB9EIekJlFR7v1EReeHZ3UmxErO1aBtGHe47_NLfeqVYXhUphHEz0o-cFkPQyNHlgY-QJ4jXYeSZZwQCuRQ2DOOmT8DCB5kGBBqQ9kWNI7rBFVhuw07_FERNhPNFBP-WV8KOpP5inZGZRa1FIe7ayVKLtGcbD5I_vnBc1VWUns35QCJIg8-N9krlsA_Ap2QS9-sR5u2GF25uoR0c5kxyS-jt_O_pRqs-LA5tRM7eVMhebEhOK02rDUI-eF7SZxwcpfEvd8cNgc4c0t3jIuCkpOoY8XNIMM6u4e-s4ffoRparf8bxHOmAKBRPhdv0tjN58huIh5LHZjAzp6_eiAQO6i3N_ijvGTMWVyupL1E4pSrm7VNyi02gCMe-uZErjVC9oNK00hzRRz8XpUPs8Cp9XQj33QiDETKPhYm7r4ZkL-oIRMhG54jMWxb_fBuEuTFXEBz0EVNhWPfhri08MG7m6qj2pdJZbJXS51R3lVfbh9HernkGbZYHsccRYJqqss_8i-XDAXJUaxDBNiF7shIdF-60yv6W081Vrewgq0-xGAWT-aoC-uwCGFMcZpSFFNawLqW9hNqZRv5Sup_T3CzK_wATNyuQYEt7z6YdAWPoSRNmU-XdDiLnOvRe3FK0s6BY9NJ5IduyHHaR6U9ZVct6np25I-9phT_P62FndDcFIAgJipMLMluWL-Bc4XdzEwgvvWcbqDWH3UD1_Ckl3EvfxX0cCV8mmcoN9RPhMVNMNw6Ba5meeoxSfbh5siIzy12DILUiGJ_NqOllCyzMI9r1GBhS7vwJ9AqXTBN4b53tfP4lyTCb-Q_vyi377fGcPeX2zlLd14G0y8zNkDreMI3PYQvU4lsIoHaVQFsGstZE-7mcD7PaTnTncrzjq-hnvMIWDPUzPSxWdpdtqBTiJYfZSjFx7XKwrnmmpPycOgFtHiKSEbVaz2P7MJa9PmKEQFN-f5FgoRdyHqdauCqPB7Zoz_czsdf1M0WV3UXVBavJWIGI7sBUc9nZ0MUmvzSJ0muadk-A_4HobA-KigJcraDI6AiZGXLOwCTQFzhTnaYOnEUqpoUE0lXVDDbUdC1YmMoZislTq0dNHq6p3jzXg3wOHJ7bn9Xxwjd5ijvWG_X6qXFn3Pvu-y-EIM85UKBXj0lsG6VzqhwpKNc___z56w-3PvM-qeXzi1me3RCMA32iFJQPhXrS7RsmjiDPJmnN-8_hK7yBsZy-mFizNdh4t-Ob0SeQY5wYlolpbK71-hzdJaIlclIfT2nCRCSNq8wMKnfs2l7PY434haIx6PXZyzo8yK_n8_nSI7Hai6tNHRQoKymzXr0eLgW9PUn58uhLHVh-fb_zw-X3h08xUibTMJwUqbEKMxbJZbXwsoYZS-dRuKnHK3ACpMsNqLiCH5rKfw9f2JmIV0YIl5FE7yhbAmhNJ3-Uq9Kb0edpq9wPn1LmAaWgFFLT20IxoYtMpf1zq3lnIRxJ_AYmpvY0wJJE2wciAEAR2AgkvzO2XwsiJG77dHU20Lzr3z5J1f9ifuamXD_Bj_LQ53m1yPXpLu6otOEvRKWff8Vw23pM92Mtf2MxERLE_StYxteVyPLTpEEJqHLbeWFloEvz0v4QBrOKmbMn0ygDQuhcnDsmbbVXlvBndrkl8x9RbGp8dCziy41MKDhLb6-KlkLlyttAOHkNRsnW-zYTDM2of7RYCNBhswk8-BTSzSmGVS4Fb4qZj23v-tBlNO64cDuz4uY9T1zeUO5UG6pYdGu5boBrIEUHSYBI-63ngf2tOgbOlc44qGleRlFhs-k1EjO5vKnyehregqiD9TCsIlBf6cuE9EiEWCJ6DTV6TpUv2Qfy7c_DxyXJgi3Vb3E1F-ytZAsy00N1wBeV130BNDMklE00zRfjA_VVupM4EyqR9zei2x8nlbr-j_m__wOqoRMEWgwAAA==';
+            var embedUrl = 'https://app.powerbi.cn/reportEmbed?reportId=4ea7fd88-240c-4d43-ae51-cbac319cee31&groupId=dbc42c25-9eef-4516-a6f7-7ec1d02e2eed';
+            var reportId = '4ea7fd88-240c-4d43-ae51-cbac319cee31';
 
             // Read embed type from radio
             var tokenType = $('input:radio[name=tokenType]:checked').val();
@@ -96,21 +96,14 @@
 
     </script>
 
-   
+
 
     <header>
         <h1>
-            Power BI Embed Report
+            Power BI Embed Report Demo
         </h1>
-        <h2>
-            Basic Sample
-            <br />
-            First make sure you <a href="https://dev.powerbi.cn/apps">register your app</a>. After registration, copy <u>Application ID</u> and <u>Application Secret</u> to web.config file.
-            <br />
-            The application will embed the first report from your Power BI account. If you wish to embed a specific report, please copy the report's ID and the corresponding workspace ID to web.config file.
-        </h2>
     </header>
-    
+
     <div>
         Embedded Report
         <br />
